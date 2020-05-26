@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipes App</title>
+    <script src="main.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #f0f2f8;
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+      }
+
+      .header {
+        background-color: #f0f2f8;
+        padding: 40px 20px 20px;
+      }
+
+      .search-input {
+        background-color: transparent;
+        border-bottom: 1px solid #dce0e8;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        color: #2e3458;
+        padding-bottom: 15px;
+        width: 100%;
+        font-size: 1.2rem;
+      }
+
+      .search-input::placeholder {
+        color: #a4b4c4;
+      }
+
+      .search-input:focus {
+        outline: none;
+      }
+
+      .recipes-list {
+        background-color: white;
+        list-style-type: none;
+        padding: 35px 0 0;
+      }
+
+      .recipe {
+        padding: 0 5vw 5vh;
+      }
+
+      .recipe img {
+        width: 90vw;
+      }
+
+      .recipe h2 {
+        color: #2e3458;
+        font-size: 1.1rem;
+        font-weight: 400;
+        margin: 10px 0 0;
+      }
+
+      .recipe h3 {
+        color: #2e3458;
+        font-size: 1rem;
+        font-weight: 100;
+        margin: 5px 0 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <input
+        type="search"
+        name="ingredients"
+        placeholder="Ingrédients…"
+        class="search-input"
+      />
+    </header>
+    <main>
+      <ul class="recipes-list">
+        <li>
+          <article class="recipe">
+            <img
+              src="https://picsum.photos/id/163/800/500"
+              alt="recipe-title"
+            />
+            <h2>Recipe Title</h2>
+            <h3>Ingredients list</h3>
+          </article>
+        </li>
+        <li>
+          <article class="recipe">
+            <img
+              src="https://picsum.photos/id/175/800/500"
+              alt="recipe-title"
+            />
+            <h2>Recipe Title</h2>
+            <h3>Ingredients list</h3>
+          </article>
+        </li>
+        <li>
+          <article class="recipe">
+            <img
+              src="https://picsum.photos/id/211/800/500"
+              alt="recipe-title"
+            />
+            <h2>Recipe Title</h2>
+            <h3>Ingredients list</h3>
+          </article>
+        </li>
+        <li>
+          <article class="recipe">
+            <img
+              src="https://picsum.photos/id/225/800/500"
+              alt="recipe-title"
+            />
+            <h2>Recipe Title</h2>
+            <h3>Ingredients list</h3>
+          </article>
+        </li>
+        <li>
+          <article class="recipe">
+            <img
+              src="https://picsum.photos/id/292/800/500"
+              alt="recipe-title"
+            />
+            <h2>Recipe Title</h2>
+            <h3>Ingredients list</h3>
+          </article>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
