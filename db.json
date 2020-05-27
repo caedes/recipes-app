@@ -1,0 +1,37 @@
+{
+  "recipes": [
+    {
+      "id": 163,
+      "name": "Café Mocha",
+      "ingredients": ["lait", "café", "chocolat", "sucre", "chantilly"]
+    },
+    {
+      "id": 175,
+      "name": "Café Dalgona",
+      "ingredients": [
+        "lait",
+        "café",
+        "chocolat",
+        "sucre",
+        "chantilly",
+        "canelle",
+        "crème"
+      ]
+    },
+    {
+      "id": 211,
+      "name": "Café Latte",
+      "ingredients": ["lait", "café", "canelle", "crème"]
+    },
+    {
+      "id": 225,
+      "name": "Café Macchiato",
+      "ingredients": ["café", "chocolat", "sucre"]
+    },
+    {
+      "id": 292,
+      "name": "Café frappé",
+      "ingredients": ["lait", "café", "sucre", "crème"]
+    }
+  ]
+}

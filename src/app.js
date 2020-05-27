@@ -1,5 +1,6 @@
 import addSearchInput from "./addSearchInput";
 import addRecipe from "./addRecipe";
+import db from "../db.json";
 
 export default function app() {
   const header = document.getElementById("header");
@@ -8,10 +9,7 @@ export default function app() {
 
   addSearchInput(header);
 
-  addRecipe(recipesList);
-  addRecipe(recipesList);
-  addRecipe(recipesList);
-  addRecipe(recipesList);
-  addRecipe(recipesList);
-  addRecipe(recipesList);
+  db.recipes.map((recipe) => {
+    addRecipe(recipesList, recipe);
+  });
 }
