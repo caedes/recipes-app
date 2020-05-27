@@ -19,6 +19,8 @@ module.exports = {
       links: [
         "https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap",
       ],
+      bodyHtmlSnippet:
+        '<header class="header" id="header"></header><main id="main"><ul class="recipes-list" id="recipes-list"></ul></main>',
     }),
   ],
   module: {
